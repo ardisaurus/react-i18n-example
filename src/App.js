@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { I18nProvider, LOCALES } from "./i18n";
+import { MESSAGES } from "./i18n/messages/constant";
 import { FormattedMessage } from "react-intl";
 import Report from "./component/report";
 
@@ -11,11 +12,11 @@ function App() {
     <I18nProvider locale={locale}>
       <div className="App">
         <header className="App-header">
-          <FormattedMessage id={"hello"} />
+          <FormattedMessage id={MESSAGES.APP.HELLO} />
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             <FormattedMessage
-              id={"edit"}
+              id={MESSAGES.APP.EDIT}
               values={{ path: <code>src/App.js</code> }}
             />
             <hr />

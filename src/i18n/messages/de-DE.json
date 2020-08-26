@@ -1,5 +1,5 @@
 {
-  "hello": "Hallo",
-  "edit": "Bearbeiten Sie {path} und speichern Sie es, um es neu zu laden",
-  "report": "Rapport"
+  "app.hello": "Hallo",
+  "app.edit": "Bearbeiten Sie {path} und speichern Sie es, um es neu zu laden",
+  "report.report": "Rapport"
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
+import { MESSAGES } from "../i18n/messages/constant";
 
 export default function report() {
   return (
     <div>
-      <FormattedMessage id={"report"} />
-      {2 + 2}
+      <FormattedMessage id={MESSAGES.REPORT.REPORT} /> :{2 + 2}
     </div>
   );
 }
